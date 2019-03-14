@@ -1,0 +1,157 @@
+.body {
+ font-family: 'Archivo Narrow', sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100%;*/
+}
+
+.header {
+  /*height: 25vw;*/
+  /*max-height: 150px;*/
+  /*width: 100%;*/
+  background-color: dodgerblue;
+  height: 3.5em;
+  padding: 1em;
+}
+img.logo {
+  max-height: 100%;
+  width: 3rem;
+  color: black;
+  float: left;
+}
+
+page-title {
+  color: dodgerblue;
+  float: left;
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 24rem) {
+  big-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  big-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 34rem) {
+  header-content {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 33rem) {
+  .header-content {
+    padding-top: .5rem;
+  }
+}
+
+.hero {
+  padding: 4em;
+  max-width: 100%;
+background-color: lightgoldenrodyellow;  
+  color: black;
+}
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 2em;
+  /*max-width: 100%;*/
+  width: 11rem;
+  height: 10rem;
+  border: 2px solid rgb(0,0,0);
+  border-radius: 50%;
+}
+
+.MyBio {
+  max-width: 100%;
+  color: #000000;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0px auto 3em;
+}
+
+.my-info:last-of-type {
+  margin: 0px;
+}
+
+.my-name {
+  color: black;
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.my-location {
+    color: #1fbfef;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 4.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-me {
+ background-color: #FFFFFF;
+  padding: 4.5em;
+}
+
+.about-content {
+    border-left: 1px solid #FFFFFF;
+ background-color: #FFFFFF;
+    padding-left: 3rem;
+}
+
+img.butterfly {
+      display: block;
+  margin: 0 auto 2em;
+  max-width: 100%;
+  width: 11rem;
+  height: 10rem;
+  border: 2px solid rgb(0,0,0);
+}
+
+img.shades {
+      display: block;
+  margin: 0 auto 2em;
+  max-width: 100%;
+  width: 11rem;
+  height: 10rem;
+  border: 2px solid rgb(0,0,0);
+}
+
+img.camo {
+      display: block;
+  margin: 0 auto 2em;
+  max-width: 100%;
+  width: 11rem;
+  height: 10rem;
+  border: 2px solid rgb(0,0,0);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: dodgerblue;
+  color: black;
+  text-align: center;
+}
